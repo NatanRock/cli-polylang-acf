@@ -21,7 +21,7 @@ No more manually setting "Copy Once", "Ignore" or "Synchronize" for each field. 
 | File             | Location                                                           |
 | ---------------- | ------------------------------------------------------------------ |
 | `plugin-cli.php` | Place in `wp-content/mu-plugins` (or `plugins`) for WP-CLI usage   |
-| `script.php`     | Anywhere (optional), used with `wp eval-file` for one-time updates |
+| `script-cli.php` | Anywhere (optional), used with `wp eval-file` for one-time updates |
 
 ```bash
 git clone https://github.com/your-repo/cli-polylang-acf.git
@@ -60,10 +60,10 @@ wp acf-polylang set --mode=synchronize --type=*
 For quick changes without installing the CLI command:
 
 ```bash
-wp eval-file path/to/script.php
+wp eval-file path/to/script-cli.php
 ```
 
-Before running, edit `script.php` to configure:
+Before running, edit `script-cli.php` to configure:
 
 ```php
 $mode       = 'copy_once';  // Mode: ignore, copy_once, translate, synchronize
