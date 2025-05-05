@@ -24,7 +24,7 @@ No more manually setting "Copy Once", "Ignore" or "Synchronize" for each field. 
 | `script.php`     | Anywhere (optional), used with `wp eval-file` for one-time updates |
 
 ```bash
-git clone https://github.com/your-repo/cli-polylang-acf.git
+git clone https://github.com/NatanRock/cli-polylang-acf.git
 ```
 
 ## ✅ WP-CLI Command (recommended)
