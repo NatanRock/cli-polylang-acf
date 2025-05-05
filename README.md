@@ -87,10 +87,6 @@ Enjoy automation and focus on what matters.
 
 ---
 
-### 🎁 Бонус
-
-Если хочешь, могу сразу дать **обложку для репозитория и badges** чтобы на GitHub выглядело как мини-официальный инструмент:
-
 ```markdown
 ![ACF x Polylang CLI](https://img.shields.io/badge/ACF-Polylang-blue?style=for-the-badge)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
