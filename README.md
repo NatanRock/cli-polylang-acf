@@ -24,7 +24,7 @@ No more manually setting "Copy Once", "Ignore" or "Synchronize" for each field. 
 | `script.php`     | Anywhere (optional), used with `wp eval-file` for one-time updates |
 
 ```bash
-git clone https://github.com/NatanRock/cli-polylang-acf.git
+git clone https://github.com/your-repo/cli-polylang-acf.git
 ```
 
 ## ✅ WP-CLI Command (recommended)
@@ -100,3 +100,24 @@ MIT — free to use, modify, and share.
 
 **Made for developers who don't want to click hundreds of fields manually.**
 Enjoy automation and focus on what matters.
+
+---
+
+# 📖 Changelog
+
+## \[v1.0.0] - 2025-05-05
+
+### Added
+
+* Initial stable release.
+* WP-CLI command support to bulk update ACF translation modes.
+* One-time PHP script for fast non-CLI usage.
+* Support for nested fields: Group, Repeater, Flexible Content.
+* MIT license.
+
+### Notes
+
+* Make sure to backup the database before using the bulk update scripts.
+* Compatible with ACF JSON sync workflows.
+
+---
