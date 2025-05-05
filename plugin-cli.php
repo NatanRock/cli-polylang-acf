@@ -17,7 +17,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
          * : ignore | copy_once | translate | synchronize | translate_once
          *
          * [--type=<type>]
-         * : image | text | * (по умолчанию *)
+         * : image | text | * (by default *)
          *
          * ## EXAMPLES
          *
